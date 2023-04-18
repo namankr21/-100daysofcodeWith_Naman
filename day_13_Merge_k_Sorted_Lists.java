@@ -31,7 +31,7 @@ public class day_13_Merge_k_Sorted_Lists {
 
     }
 
-    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode ans = new ListNode();
         ListNode temp = ans;
         if (list1 == null)
